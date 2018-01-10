@@ -1,0 +1,12 @@
+{% load staticfiles %}
+<html>
+<body>
+  <img src = {% static 'testapp\img\google.png' %}>
+
+  {% block abc %}
+  <h1>Hello Django</h1>
+  <h5>Second Page</h5>
+  {% endblock %}
+
+</body>
+</html>
