@@ -1,0 +1,11 @@
+﻿<html>
+<body>
+<h1>Hello, Django!</h1>
+{{posts}}
+{% for post in posts %}
+<p>Publist : {{post.published_date}}</p>
+<p><h3>{{post.title}}</h3></p>
+<p>{{post.text}}</p>
+{% endfor %}
+</body>
+</html>
